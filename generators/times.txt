@@ -1,0 +1,23 @@
+zbp:funcpy rzuber$ time python freq1.py actors.list
+
+real    0m35.929s
+user    0m34.373s
+sys     0m1.552s
+
+~ 1.6GB RAM
+
+zbp:funcpy rzuber$ time python freq6.py actors.list
+
+real    0m42.814s
+user    0m42.346s
+sys     0m0.464s
+
+~ 220MB RAM
+
+zbp:funcpy rzuber$ time python freq7.py actors.list
+
+real    2m18.314s
+user    2m2.860s
+sys     0m12.285s
+
+~ 6.5GB RAM
